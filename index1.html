@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Speech to Text</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Speech2Text - <span>Converter</span></h1>
+      <div class="result" spellcheck="false">
+        <p class="interim" style="color: rgb(223, 223, 223)"> Your result will be here...</p>
+      </div>
+      <div class="options">
+        <div  style="display:flex" class="language">
+          <select name="input-language" id="language"></select>
+          <button style="margin-right:8px;" class="btn record">
+            <p>Start Listening</p>
+          </button>
+          <button style="margin-right:26px;" class="btn clear">
+            <ion-icon name="trash-outline"></ion-icon>
+            <p>Clear</p>
+          </button>
+          <button style="margin-right:8px;" class="btn download" disabled>
+            <ion-icon name="cloud-download-outline"></ion-icon>
+            <p>Download</p>
+          </button>
+          <button class="btn record">
+            <a href="About1.html" style="color: white;" target="blank">About</a>
+          </button>
+        </div>
+      </div>
+      <div class="buttons">   
+      </div>
+    </div>
+
+    <!-- IONICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- LANGUAGES -->
+    <script src="languages.js"></script>
+    <!-- SCRIPT -->
+    <script src="script1.js"></script>
+  </body>
+</html>
